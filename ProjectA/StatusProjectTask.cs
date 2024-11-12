@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProjectA
 {
-    public enum TaskStatus
+    public enum StatusProjectTask
     {
         Completed,
         Missed,
-        Pending,
+        Pending
     }
 }

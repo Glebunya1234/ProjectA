@@ -9,6 +9,6 @@ namespace ProjectA
    public enum RoleType
     {
         MANAGER,
-        EMPLOYEE,
+        EMPLOYEE
     }
 }

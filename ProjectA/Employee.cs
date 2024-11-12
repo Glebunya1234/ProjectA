@@ -8,17 +8,18 @@ namespace ProjectA
 {
     public class Employee : IPerson
     {
-        public TaskStatus TaskStatus
-        {
-            get => throw new NotImplementedException();
-            set => throw new NotImplementedException();
-        }
         public double Salary
         {
             get => throw new NotImplementedException();
             set => throw new NotImplementedException();
         }
-        public List<Task> AssignedTasks
+        public StatusProjectTask TaskStatus
+        {
+            get => throw new NotImplementedException();
+            set => throw new NotImplementedException();
+        }
+
+        public List<ProjectTask> AssignedTasks
         {
             get => throw new NotImplementedException();
             set => throw new NotImplementedException();
@@ -44,7 +45,7 @@ namespace ProjectA
             throw new NotImplementedException();
         }
 
-        public void ChangeTaskStatus(TaskStatus status)
+        public void ChangeTaskStatus(ProjectTask task, StatusProjectTask status)
         {
             throw new NotImplementedException();
         }

@@ -34,7 +34,7 @@ namespace ProjectA
             set => throw new NotImplementedException();
         }
 
-        public Manager(string firstName, string lastName, int age, double salary)
+        public Manager(string firstName, string lastName, int age)
         {
             throw new NotImplementedException();
         }
@@ -44,12 +44,12 @@ namespace ProjectA
             throw new NotImplementedException();
         }
 
-        public void AssignTask(Employee employee, Task task)
+        public void AssignTask(Employee employee, ProjectTask task)
         {
             throw new NotImplementedException();
         }
 
-        public void RaiseSalary(Employee employee, decimal amount)
+        public void RaiseSalary(Employee employee, double amount)
         {
             throw new NotImplementedException();
         }
