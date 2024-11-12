@@ -13,12 +13,7 @@ namespace ProjectA
             get => throw new NotImplementedException();
             set => throw new NotImplementedException();
         }
-        public StatusProjectTask TaskStatus
-        {
-            get => throw new NotImplementedException();
-            set => throw new NotImplementedException();
-        }
-
+        
         public List<ProjectTask> AssignedTasks
         {
             get => throw new NotImplementedException();
