@@ -8,12 +8,12 @@ namespace ProjectA
 {
     public class Employee : IPerson
     {
-        public double Salary
+        public TaskStatus TaskStatus
         {
             get => throw new NotImplementedException();
             set => throw new NotImplementedException();
         }
-        public TaskStatus TaskStatus
+        public double Salary
         {
             get => throw new NotImplementedException();
             set => throw new NotImplementedException();
